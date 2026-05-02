@@ -40,6 +40,7 @@ class _PageHomeCategoryState extends State<PageHomeCategory> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Daftar Masakan")),
+      backgroundColor: Colors.yellow,
       body: Column(
         children: [
           // Search bar
