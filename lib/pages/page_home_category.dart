@@ -41,7 +41,7 @@ class _PageHomeCategoryState extends State<PageHomeCategory> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Daftar Masakan"),
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.purpleAccent,
         actions: [
           IconButton(
             icon: Icon(isGrid ? Icons.list : Icons.grid_view),
