@@ -17,7 +17,7 @@ class _PageHomeCategoryState extends State<PageHomeCategory> {
   @override
   void initState() {
     super.initState();
-    // default kategori "Seafood"
+
     futureMeals = CategoryService.getMealsByCategory("Seafood");
   }
 
@@ -43,7 +43,7 @@ class _PageHomeCategoryState extends State<PageHomeCategory> {
       backgroundColor: Colors.yellow,
       body: Column(
         children: [
-          // Search bar
+
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
